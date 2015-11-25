@@ -1,0 +1,22 @@
+{
+  "name": "nodebb-plugin-mega-sidebar-area",
+  "version": "0.0.1",
+  "description": "Slideout sidebar for NodeBB",
+  "main": "library.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MegaGM/nodebb-plugin-mega-sidebar-area.git"
+  },
+  "keywords": [
+    "sidebar"
+  ],
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/MegaGM/nodebb-plugin-mega-sidebar-area/issues"
+  },
+  "homepage": "https://github.com/MegaGM/nodebb-plugin-mega-sidebar-area#readme"
+}

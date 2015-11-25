@@ -1,0 +1,19 @@
+{
+	"id": "nodebb-plugin-mega-sidebar-area",
+	"name": "Slideout sidebar for NodeBB",
+	"library": "./library.js",
+	"less": [
+		"less/main.less"
+	],
+	"scripts": [
+		"js/activate.js"
+	],
+	"staticDirs": {
+		"static": "static"
+	},
+	"templates": "templates",
+	"hooks": [{
+		"hook": "static:app.load",
+		"method": "init"
+	}]
+}

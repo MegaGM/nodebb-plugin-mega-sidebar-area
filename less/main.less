@@ -1,0 +1,68 @@
+
+#sidebar-area {
+	display: none;
+  position: fixed;
+  top: 51px;
+  bottom: 0;
+	left: -350px;
+	min-width: 250px;
+	max-width: 350px;
+  overflow-y: scroll;
+	background-color: #fff;
+	box-shadow: 1px 3px 3px 1px #888;
+	z-index: 28010;
+
+	.sidebar-area__button {
+		width: 50%;
+		float: left;
+		padding: 10px 0;
+		text-align: center;
+		font-size: 130%;
+		color: #666;
+		background-color: #E4EDF3;
+		cursor: pointer;
+		transition: background-color 0.2s;
+
+		&.sidebar-area__open-options.--pressed {
+			background-color: #D6E7F3;
+			background-color: #fff;
+			border-left: 1px solid #d6e7f3;
+		}
+		&.sidebar-area__close-sidebar {}
+
+		&:hover {
+			background-color: #D6E7F3;
+		}
+	}
+
+
+	.sidebar-area__options {
+		display: none;
+		background-color: #337ab7;
+		background-color: #E4EDF3;
+		background-color: #fff;
+		.sidebar-area__options__checkboxes {
+			margin: 0 0 0 15px;
+		}
+	}
+}
+
+.sidebar-area__open-sidebar {
+  position: fixed;
+	top: 60px;
+	left: -15px;
+	width: 48px;
+	height: 48px;
+	background: url('/plugins/nodebb-plugin-mega-sidebar-area/static/images/sidebar-area-open-icon.png');
+  background-size: contain;
+	cursor: pointer;
+	z-index: 28000;
+	&:hover {
+		left: -5px;
+	}
+
+	&.--hovered {
+		left: -5px !important;
+		transition: left 0.3s;
+	}
+}
