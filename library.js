@@ -3,7 +3,7 @@
 
 	var Plugin = {
 		init: function (params, callback) {
-			console.log('sidebar-area has been loaded');
+			// console.log('sidebar-area has been loaded');
 			callback(null);
 		}
 	};
