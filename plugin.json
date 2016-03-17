@@ -11,6 +11,9 @@
 	"staticDirs": {
 		"static": "static"
 	},
+	"css": [
+		"css/perfect-scrollbar.min.css"
+	],
 	"templates": "templates",
 	"hooks": [{
 		"hook": "static:app.load",
