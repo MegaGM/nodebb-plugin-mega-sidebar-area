@@ -2,7 +2,7 @@
   "name": "nodebb-plugin-mega-sidebar-area",
   "version": "0.0.4",
   "nbbpm": {
-    "compatibility": "^0.9.0"
+    "compatibility": "^0.9.0 || ^1.0.0"
   },
   "description": "Slideout sidebar for NodeBB",
   "main": "library.js",
