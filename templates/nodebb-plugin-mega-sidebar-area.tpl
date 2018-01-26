@@ -30,4 +30,4 @@
 		</div>
 
 	</div>
-	<div class="sidebar-area__open-sidebar" id=""></div>
+	<a class="sidebar-area__open-sidebar" id=""></a>
